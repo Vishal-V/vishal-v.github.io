@@ -128,7 +128,35 @@ b.max-bold{ font-weight: 700; }
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
 
 	
+/*Skills*/
+.line-progress{ position: relative; padding-bottom: 25px; }
 
+.line-progress .progressbar-text{ position: absolute; bottom: 0; right: 0; font-size: 1.1em; 
+	font-weight: 500; color: #777!important; }
+
+.line-progress .progress-title{ position: absolute; bottom: 0; left: 0; color: #777; }
+
+.panel-area .panel-title{ padding: 10px 20px; cursor: pointer; position: relative; color: #fff;
+	border-radius: 3px; background: #FF5A60; color: #fff; }
+
+.panel-area .panel-desc{ max-height: 0; overflow: hidden; opacity: 0;
+	-webkit-transition: all .05s, opacity .25s .1s, -webkit-transform .1s; 
+	transition: all .05s, opacity .25s .1s, transform .1s; 
+	-webkit-transform: scaleY(0); transform: scaleY(0); 
+	-webkit-transform-origin: top; transform-origin: top; }
+
+.panel-area .panel-title .icon{ float: right; font-size: .7em; margin-top: 5px; }
+
+.panel-area .panel-title.active{ background: #4166FF; }
+
+.panel-area .panel-title.active + .panel-desc{ opacity: 1; padding: 20px 20px 0; max-height: 300px; 
+	-webkit-transform: scaleY(1); transform: scaleY(1); }
+
+.panel-area .panel-title .icon.plus,
+.panel-area .panel-title.active .icon.minus{ display: block; }
+
+.panel-area .panel-title .icon.minus,
+.panel-area .panel-title.active  display: none; 
 /*Experience*/
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
