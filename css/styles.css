@@ -173,7 +173,7 @@ b.max-bold{ font-weight: 700; }
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{ color: #FFA804; }
+.portfolio-section .portfolioFilter a.current{ color: #FF5A60; }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
@@ -194,4 +194,4 @@ b.max-bold{ font-weight: 700; }
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+	box-shadow: 0 0 0 8px rgba(255,182,193, .85); background: #FF5A60; }
