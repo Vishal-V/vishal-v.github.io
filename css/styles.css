@@ -129,7 +129,7 @@ b.max-bold{ font-weight: 700; }
 
 	
 /*Skills*/
-.line-progress{ position: relative; padding-bottom: 25px; }
+.line-progress{ position: relative; padding-bottom: 25px; padding-right: 25px;}
 
 .line-progress .progressbar-text{ position: absolute; bottom: 0; right: 0; font-size: 1.1em; 
 	font-weight: 500; color: #777!important; }
