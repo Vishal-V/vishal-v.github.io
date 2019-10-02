@@ -13,6 +13,18 @@
   <link href="css/responsive.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   
+  <style type="text/css">
+    @media screen and (max-width: 992px) {
+    .hide-desc {
+        display: none !important;
+    }
+
+    @media only screen and (max-width: 426px) {
+    .portfolioContainer .p-item {
+      width: 100%;
+    }
+  }
+  </style>  
 </head>
 
 <body>
@@ -150,14 +162,14 @@
   <section class="education-section section">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-3">
+        <div class="col-lg-3 col-md-4 col-sm-12">
           <div class="heading">
             <h3><b>Experience</b></h3>
             <h6 class="font-dark-gray"><b>PREVIOUS</b></h6>
           </div>
         </div>
         
-        <div class="col-sm-12 col-md-9">
+        <div class="col-sm-12 col-md-8 col-lg-9">
         
           <div class="education-wrapper">
             <div class="education margin-b-50">
@@ -251,7 +263,8 @@
       </div>
     </div>
   </section>
-
+  
+  <!-- Other Projects -->
   <section class="portfolio-section section">
     <div class="container">
       <div class="row">
@@ -271,54 +284,54 @@
           </div>
         </div>
       </div>      
-      <div class="portfolioContainer  margin-b-20">
+      <div class="portfolioContainer margin-b-20">
         
         <div class="p-item deep-learning web-dev">
           <a href="https://github.com/Vishal-V/Decentralized-social-network" data-fluidbox target="_blank" class="text-center font-yellow">Social Network</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10">A full stack private social networking platform built with a PostgreSQL database and Flask with numerous cryptographic hashes to actually keep your data private and secure!</p>
+            <p class="font-black margin-t-10 hide-desc">A full stack private social networking platform built with a PostgreSQL database and Flask with numerous cryptographic hashes to actually keep your data private and secure!</p>
         </div>
         
         <div class="p-item deep-learning">
           <a href="https://github.com/Team-Excelsior/Looking-Globe-Ally" data-fluidbox target="_blank" class="text-center font-yellow">Looking Globe-Ally</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10">Used K-Means Clustering to track Malaria and Zika virus spread across the globe. Preventing Forest fires: Using CNNs to predict forest fires and take steps to mitigate its effects</p>
+            <p class="font-black margin-t-10 hide-desc">Used K-Means Clustering to track Malaria and Zika virus spread across the globe. Preventing Forest fires: Using CNNs to predict forest fires and take steps to mitigate its effects</p>
         </div>
         
         <div class="p-item web-dev">
           <a href="https://github.com/Vishal-V/Microsoft-MSHack" data-fluidbox target="_blank" class="text-center font-yellow">Smart Itinerary</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10">Collaborative-filtering based recommendation system trained on the Yelp dataset. Used the GeoCoding and Routing APIs to make an itinerary based on recommendations</p>
+            <p class="font-black margin-t-10 hide-desc">Collaborative-filtering based recommendation system trained on the Yelp dataset. Used the GeoCoding and Routing APIs to make an itinerary based on recommendations</p>
         </div>
 
          <div class="p-item web-dev">
           <a href="https://github.com/Vishal-V/100-Days-of-ML-Code" data-fluidbox target="_blank" class="text-center font-yellow">100 Days of ML</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10">Repository for 100 days of ML Code challenge to learn and implement ML/DL concepts for 100 days. The progression ranged from basics of machine learning to advanced deep learning</p>
+            <p class="font-black margin-t-10 hide-desc">Repository for 100 days of ML Code challenge to learn and implement ML/DL concepts for 100 days. The progression ranged from basics of machine learning to advanced deep learning</p>
         </div>
 
          <div class="p-item web-dev">
           <a href="https://github.com/Vishal-V/Acko-Insurance-Hack" data-fluidbox target="_blank" class="text-center font-yellow">Insuruptor</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10"> Acko Hack: Built a recession predictor with Frequency/Severity Loss Estimation, an interactive chatbot and Crop Insurance Prediction. We also estimated fire insurance claim with CNNs</p>
+            <p class="font-black margin-t-10 hide-desc"> Acko Hack: Built a recession predictor with Frequency/Severity Loss Estimation, an interactive chatbot and Crop Insurance Prediction. We also estimated fire insurance claim with CNNs</p>
         </div>
 
         <div class="p-item data-science">
           <a href="https://github.com/Vishal-V/Enron-Fraud-Detection" data-fluidbox target="_blank" class="text-center font-yellow">Enron Fraud Detection</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10">This is an end-to-end process of investigating data through a machine learning lens. Deals with the 10k+ Enron emails uncovered during legal proceedings to detect outliers and POIs</p>
+            <p class="font-black margin-t-10 hide-desc">This is an end-to-end process of investigating data through a machine learning lens. Deals with the 10k+ Enron emails uncovered during legal proceedings to detect outliers and POIs</p>
         </div>
 
         <div class="p-item deep-learning">
           <a href="https://github.com/Vishal-V/GCP-Datalab-ML" data-fluidbox target="_blank" class="font-yellow">Google Cloud ML</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10">Google Cloud Datalab projects used to practice my GCP skills and deploy AI apps. Used BigQuery for all the datasets and Tensorflow as the framework for deep learning and parallelization.</p>
+            <p class="font-black margin-t-10 hide-desc">Google Cloud Datalab projects used to practice my GCP skills and deploy AI apps. Used BigQuery for all the datasets and Tensorflow as the framework for deep learning and parallelization.</p>
         </div>
 
         <div class="p-item web-dev">
           <a href="https://vishal-v.github.io/code-editor.github.io/" data-fluidbox target="_blank" class="text-center font-yellow">Real Time IDE</a>
             <img src="res/image_1.jpg" alt="">
-            <p class="font-black margin-t-10">An online code editor for HTML, CSS and JS that renders the code in real-time. The user can practice web development and view the output instantly without the need to use browser-sync.</p>
+            <p class="font-black margin-t-10 hide-desc">An online code editor for HTML, CSS and JS that renders the code in real-time. The user can practice web development and view the output instantly without the need to use browser-sync.</p>
         </div>
       </div>
       
@@ -330,14 +343,14 @@
   <section class="education-section section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-4 col-sm-12">
           <div class="heading">
             <h3><b>Certifications</b></h3>
             <h6>Online MOOCs and Independent Coursework</h6>
           </div>
         </div>
 
-        <div class="col-md-9 col-sm-12">
+        <div class="col-md-8 col-sm-12">
 
           <div class="education-wrapper">
 
